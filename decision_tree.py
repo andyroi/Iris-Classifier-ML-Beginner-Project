@@ -98,5 +98,22 @@ sns.heatmap(
 axes[0].set_title('Confusion Matrix - Decision Tree')
 axes[0].set_ylabel('Actual')  # Label for y-axis
 axes[0].set_xlabel('Predicted')  # Label for x-axis
-                    
+
+#this part will see the structure of the decision tree
+plot_tree(
+    dt_classifier,
+    feature_names=iris.feature_names, #name of features
+    class_names=iris.target_names, #target names via class
+    filled = True, #color nodes
+    ax=axes[1] #soecific subplot
+)
+
+axes[1].set_title('Decision Tree Structure') #title
+
+#adjust layout and save
+plt.tight_layout()  #prevents plots from overlapping
+#plt.savefig('decision_tree_results.png')  # Save as PNG file good for VS code
+print("\n   Saved visualization as 'decision_tree_results.png'")
+plt.show()  # Display on screen
+
 
