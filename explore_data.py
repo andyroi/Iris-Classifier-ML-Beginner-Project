@@ -12,7 +12,7 @@ iris_df['species_name'] = iris_df['species'].map({0: 'setosa', 1:"versicolor", 2
 
 #df.shape is a tuple of (rows, columns)
 print("\n1. Dataset Shape:")
-print(f"  Rows:{iris_df.shape[0]}, Columns: {iris_df.shape[1]}") #0 means rows and 1 means columns
+print(f"  Rows:{iris_df.shape[0]}, Columns: {iris_df.shape[1]}") #0 means rows and 1 means columns - printing the count of columns & rows
 
 print("\n2. First 5 rows:")
 print(iris_df.head()) #which spits first 5 rows by defaults
