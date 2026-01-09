@@ -112,7 +112,7 @@ axes[1].set_title('Decision Tree Structure') #title
 
 #adjust layout and save
 plt.tight_layout()  #prevents plots from overlapping
-#plt.savefig('decision_tree_results.png')  # Save as PNG file good for VS code
+plt.savefig('decision_tree_results.png')  # Save as PNG file good for VS code
 print("\n   Saved visualization as 'decision_tree_results.png'")
 plt.show()  # Display on screen
 
