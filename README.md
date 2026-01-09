@@ -1,9 +1,9 @@
 # Iris Classifier ML Beginner Project 🌸
 
 ## Overview
-This project teaches you machine learning fundamentals using the classic Iris flower dataset. You'll learn to build, train, and evaluate classification models.
+Project applied to gain easy understanding on Classification models such as Decision Tree and KNN
 
-## What You'll Learn
+## Learned
 - Loading datasets with scikit-learn
 - Train/test data splitting
 - Training classifiers (Decision Tree & KNN)
