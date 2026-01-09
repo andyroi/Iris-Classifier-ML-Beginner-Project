@@ -100,6 +100,9 @@ axes[0].set_ylabel('Actual')  # Label for y-axis
 axes[0].set_xlabel('Predicted')  # Label for x-axis
 
 #this part will see the structure of the decision tree
+#understanding wise gini = is the confidence or purity of the tree
+#samples are based off the condition of the <= 4.75 cm as an  example
+#conditions are created based off the .fit that was learned
 plot_tree(
     dt_classifier,
     feature_names=iris.feature_names, #name of features
